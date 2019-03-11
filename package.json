@@ -1,0 +1,29 @@
+{
+  "name": "uke_api",
+  "version": "1.0.0",
+  "description": "Target API for development of pen-testing tooling",
+  "main": "src/index.js",
+  "author": "Mic <mic@secureideas.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.5.0",
+    "remove": "^0.1.5",
+    "restify": "^8.1.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "nyc": "^13.3.0",
+    "prettier": "^1.16.4",
+    "sinon": "^7.2.7"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "nyc --reporter=text mocha"
+  }
+}
