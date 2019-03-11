@@ -1,4 +1,3 @@
 {
-  "singleQuote": true,
-  "parser": "babel-flow"  
+  "singleQuote": true
 }
