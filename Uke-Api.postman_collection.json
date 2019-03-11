@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "31a74f58-42a8-4e2d-8a97-5a31cffb687e",
+		"name": "Uke-Api",
+		"description": "Test API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "legacy",
+			"item": [
+				{
+					"name": "Do Auth",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/legacy/auth",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"legacy",
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Auth Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/legacy/status",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"legacy",
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "v2",
+			"item": [
+				{
+					"name": "Do Auth",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/v2/auth",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v2",
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Auth Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/v2/status",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v2",
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
